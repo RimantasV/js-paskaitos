@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: blue;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.active {
+  display: block;
+}
