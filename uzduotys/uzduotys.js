@@ -26,7 +26,7 @@ let array = [
 console.log(longesWord(array));
 
 function midLetter(word) {
-  jav;
+  // jav;
   if (word.length % 2 !== 0) {
     // variantas kuomet zodio ilgis nelyginis
     return word[Math.floor(word.length / 2)];
@@ -79,3 +79,28 @@ let word2 = "world";
 let greeting = word1 + " " + word2;
 let greeting2 = word1.concat(", ", word2);
 let greeting3 = `${word1} ${word2}`;
+
+// function longesWord(sentence) {
+//   let answer = sentence[0];
+
+//   for (let i = 1; i < sentence.length; i++) {
+//     if (sentence[i].length > answer.length) {
+//       answer = sentence[i];
+//     }
+//   }
+//   return answer;
+// }
+
+// let array2 = [
+//   "Lorem",
+//   "ipsum",
+//   "dolor",
+//   "sit",
+//   "amet",
+//   "consectetur",
+//   "adipisicing",
+//   "elit",
+//   "eterterterterter",
+// ];
+
+// console.log(longesWord(array2));

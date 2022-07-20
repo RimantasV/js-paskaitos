@@ -20,3 +20,12 @@ Math.pow(x, 2)
     result.push(
       Number.isInteger(Math.sqrt(arr[i])) ? Math.sqrt(arr[i]) : arr[i] * arr[i]
     );
+
+// Uzduotis
+//sukurti forma su input lauku, kuriame vartotojas gali ivesti temperatura celcijais
+// tuomet paspaudus submit, yra apskaiciuojama temperatura farenheitais
+// <li> Celcijai: 20</li>
+//<li> farenheitai: 200</li>
+
+//convert c to f:
+//multiply by 1.8 (or 9/5) and add 32.
